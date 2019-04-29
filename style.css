@@ -1,19 +1,32 @@
 .container {   
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 50% 50%;
     grid-template-areas: 
-        "header"
-        "wapper";
+        "header header"
+        "wapper pic";
     height: 100%;
     width: 100%;
 }
 
 .header {
     grid-area: header; 
-    background-color: green   
+    background-color: green;
 }
 
 .wapper {
     grid-area: wapper;
+}
+
+.pic {
+    grid-area: pic;
+}
+
+.pic img{
+    border-radius: 50%;
+}
+
+body { 
+    background-image: 
+
 }
