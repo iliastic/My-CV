@@ -1,0 +1,19 @@
+.container {   
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        "header"
+        "wapper";
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    grid-area: header; 
+    background-color: green   
+}
+
+.wapper {
+    grid-area: wapper;
+}
